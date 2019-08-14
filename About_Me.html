@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>me2</title>
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: About_Me;
+	}
+	#About_Me * {
+		margin: 0;
+		padding: 0;
+	}
+	#About_Me {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		--web-view-name: About Me;
+		--web-view-id: About_Me;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_2 {
+		opacity: 0.5;
+		fill: rgba(11,125,166,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 200px;
+		left: 0px;
+		top: -7px;
+	}
+	#Andrea_Fung {
+		position: absolute;
+		left: 679px;
+		top: 10px;
+		overflow: visible;
+		width: 563px;
+		white-space: nowrap;
+		line-height: 120.00000762939453px;
+		margin-top: -17.500003814697266px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 85px;
+		color: rgba(0,0,0,1);
+	}
+	#contact_menu {
+		position: absolute;
+		width: 222px;
+		height: 69px;
+		left: 1529px;
+		top: 130px;
+		overflow: visible;
+	}
+	#Contact {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 223px;
+		white-space: nowrap;
+		line-height: 120.00000762939453px;
+		margin-top: -30.000003814697266px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(0,0,0,1);
+	}
+	#Symbol {
+		opacity: 0.396;
+		position: absolute;
+		width: 276px;
+		height: 69px;
+		left: 175px;
+		top: 130px;
+		overflow: visible;
+	}
+	#About_me {
+		position: absolute;
+		left: 1px;
+		top: 0px;
+		overflow: visible;
+		width: 276px;
+		white-space: nowrap;
+		line-height: 120.00000762939453px;
+		margin-top: -30.000003814697266px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(0,0,0,1);
+	}
+	#Projects_s_menu {
+		position: absolute;
+		width: 234px;
+		height: 69px;
+		left: 843px;
+		top: 130px;
+		overflow: visible;
+	}
+	#Projects {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 235px;
+		white-space: nowrap;
+		line-height: 120.00000762939453px;
+		margin-top: -30.000003814697266px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_1 {
+		fill: rgba(167,199,211,0.502);
+		stroke: rgba(167, 199, 211, 0.5);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 186px;
+		left: 0px;
+		top: 894px;
+	}
+	#About_Me_A1_Text_27 {
+		position: absolute;
+		left: 176px;
+		top: 923px;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		line-height: 21.600000381469727px;
+		margin-top: -1.8000001907348633px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_5 {
+		position: absolute;
+		width: 92px;
+		height: 18px;
+		left: 203.487px;
+		top: 946.547px;
+		overflow: visible;
+	}
+	#Introduction {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component {
+		position: absolute;
+		width: 123px;
+		height: 18px;
+		left: 203px;
+		top: 1011px;
+		overflow: visible;
+	}
+	#Creative_Resume {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_5_A1_SymbolInstance_23 {
+		position: absolute;
+		width: 58px;
+		height: 18px;
+		left: 204px;
+		top: 968px;
+		overflow: visible;
+	}
+	#Resume {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_A1_SymbolInstance_24 {
+		position: absolute;
+		width: 125px;
+		height: 18px;
+		left: 204px;
+		top: 989px;
+		overflow: visible;
+	}
+	#Curriculum_Vitae {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 126px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_1 {
+		position: absolute;
+		width: 71px;
+		height: 21px;
+		left: 385px;
+		top: 923px;
+		overflow: visible;
+	}
+	#Component_5_A1_SymbolInstance_25 {
+		position: absolute;
+		width: 71px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Projects_A1_Text_32 {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		line-height: 21.600000381469727px;
+		margin-top: -1.8000001907348633px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_14 {
+		position: absolute;
+		width: 167px;
+		height: 18px;
+		left: 385px;
+		top: 947px;
+		overflow: visible;
+	}
+	#MDQ_website_prototype {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 168px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_6 {
+		position: absolute;
+		width: 129px;
+		height: 18px;
+		left: 385px;
+		top: 969px;
+		overflow: visible;
+	}
+	#MDQ_ad_campaign {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_10 {
+		position: absolute;
+		width: 192px;
+		height: 18px;
+		left: 385px;
+		top: 990px;
+		overflow: visible;
+	}
+	#PALM_project_ad_campaign {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 193px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_A1_SymbolInstance_26 {
+		position: absolute;
+		width: 134px;
+		height: 18px;
+		left: 627px;
+		top: 947px;
+		overflow: visible;
+	}
+	#Therapy_Materials {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_A1_SymbolInstance_27 {
+		position: absolute;
+		width: 80px;
+		height: 18px;
+		left: 628px;
+		top: 967px;
+		overflow: visible;
+	}
+	#Zone_Game {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_15 {
+		position: absolute;
+		width: 99px;
+		height: 94px;
+		left: 1652px;
+		top: 923px;
+		overflow: visible;
+	}
+	#Component_5_A1_SymbolInstance_28 {
+		position: absolute;
+		width: 66px;
+		height: 21px;
+		left: 33px;
+		top: 25px;
+		overflow: visible;
+	}
+	#Git_Hub {
+		position: absolute;
+		left: 0px;
+		top: 2px;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_A1_SymbolInstance_29 {
+		position: absolute;
+		width: 64px;
+		height: 18px;
+		left: 33px;
+		top: 52px;
+		overflow: visible;
+	}
+	#Linkedin {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_A1_SymbolInstance_30 {
+		position: absolute;
+		width: 67px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Contact_A1_Text_40 {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		line-height: 21.600000381469727px;
+		margin-top: -1.8000001907348633px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Component_A1_SymbolInstance_31 {
+		position: absolute;
+		width: 60px;
+		height: 21px;
+		left: 33px;
+		top: 73px;
+		overflow: visible;
+	}
+	#Kaggle {
+		position: absolute;
+		left: 0px;
+		top: 2px;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		line-height: 25.200000762939453px;
+		margin-top: -5.100000381469727px;
+		text-align: left;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#cv_intro {
+		fill: url(#cv_intro_A1_Rectangle_8_pattern);
+	}
+	.cv_intro {
+		position: absolute;
+		overflow: visible;
+		width: 482px;
+		height: 268px;
+		left: 233px;
+		top: 358px;
+	}
+	#Rectangle_199 {
+		fill: rgba(32,130,67,1);
+		stroke: rgb(32, 130, 67);
+		stroke-width: 3.162097930908203px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+	}
+	.Rectangle_199 {
+		position: absolute;
+		overflow: visible;
+		width: 760.377px;
+		height: 318.287px;
+		left: 880px;
+		top: 278px;
+		transform: rotate(0.248deg);
+		transform-origin: left;
+	}
+	#Rectangle_200 {
+		fill: rgba(32,130,67,1);
+		stroke: rgb(255, 255, 255);
+		stroke-width: 3.162097930908203px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+	}
+	.Rectangle_200 {
+		position: absolute;
+		overflow: visible;
+		width: 708.198px;
+		height: 277.634px;
+		left: 908.589px;
+		top: 298.389px;
+		transform: rotate(0.248deg);
+		transform-origin: left;
+	}
+	#Component_65___1 {
+		position: absolute;
+		width: 708.198px;
+		height: 95.744px;
+		left: 908.589px;
+		top: 500.232px;
+		overflow: visible;
+	}
+	#Resume_ {
+		position: absolute;
+		left: 218px;
+		top: 18.744px;
+		overflow: hidden;
+		width: 304.198px;
+		height: 54.024px;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_433 {
+		position: absolute;
+		width: 37px;
+		height: 48.686px;
+		left: 419.198px;
+		top: 15px;
+		overflow: visible;
+	}
+	#Path_514 {
+		fill: rgba(255,255,255,1);
+		stroke: rgb(255, 255, 255);
+		stroke-width: 16px;
+		stroke-linejoin: bevel;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_514 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 21.396px;
+		left: 18.779px;
+		width: 16.487px;
+		height: 43.29px;
+	}
+	#Path_515 {
+		fill: rgba(255,255,255,1);
+		stroke: rgb(255, 255, 255);
+		stroke-width: 10px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_515 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 47px;
+		height: 31px;
+	}
+	#After_finishing_my_first_Maste {
+		position: absolute;
+		left: 930.697px;
+		top: 312.903px;
+		overflow: hidden;
+		width: 653px;
+		height: 195.067px;
+		line-height: 17px;
+		margin-top: -0.5px;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#Line_222 {
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+	}
+	.Line_222 {
+		overflow: visible;
+		position: absolute;
+		top: 491.732px;
+		left: 910.697px;
+		width: 703px;
+		height: 3px;
+	}
+</style>
+</head>
+<body>
+<div id="About_Me">
+	<svg class="Rectangle_2">
+		<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1920" height="200">
+		</rect>
+	</svg>
+	<div id="Andrea_Fung">
+		<span>Andrea Fung</span>
+	</div>
+	<div id="contact_menu">
+		<div id="Contact">
+			<span>Contact</span>
+		</div>
+	</div>
+	<div id="Symbol">
+		<div id="About_me">
+			<span>About me</span>
+		</div>
+	</div>
+	<div id="Projects_s_menu">
+		<div id="Projects">
+			<span>Projects</span>
+		</div>
+	</div>
+	<svg class="Rectangle_1">
+		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="186">
+		</rect>
+	</svg>
+	<div id="About_Me_A1_Text_27">
+		<span>About Me</span>
+	</div>
+	<div id="Component_5">
+		<div id="Introduction">
+			<span>Introduction</span>
+		</div>
+	</div>
+	<div id="Component">
+		<div id="Creative_Resume">
+			<span>Creative Resume</span>
+		</div>
+	</div>
+	<div id="Component_5_A1_SymbolInstance_23">
+		<div id="Resume">
+			<span>Resume</span>
+		</div>
+	</div>
+	<div id="Component_A1_SymbolInstance_24">
+		<div id="Curriculum_Vitae">
+			<span>Curriculum Vitae</span>
+		</div>
+	</div>
+	<div id="Group_1">
+		<div id="Component_5_A1_SymbolInstance_25">
+			<div id="Projects_A1_Text_32">
+				<span>Projects</span>
+			</div>
+		</div>
+	</div>
+	<div id="Group_14">
+		<div id="MDQ_website_prototype">
+			<span>MDQ website prototype</span>
+		</div>
+	</div>
+	<div id="Group_6">
+		<div id="MDQ_ad_campaign">
+			<span>MDQ ad campaign</span>
+		</div>
+	</div>
+	<div id="Group_10">
+		<div id="PALM_project_ad_campaign">
+			<span>PALM project ad campaign</span>
+		</div>
+	</div>
+	<div id="Component_A1_SymbolInstance_26">
+		<div id="Therapy_Materials">
+			<span>Therapy Materials</span>
+		</div>
+	</div>
+	<div id="Component_A1_SymbolInstance_27">
+		<div id="Zone_Game">
+			<span>Zone Game</span>
+		</div>
+	</div>
+	<div id="Group_15">
+		<div id="Component_5_A1_SymbolInstance_28">
+			<div id="Git_Hub">
+				<span>Git Hub</span>
+			</div>
+		</div>
+		<div id="Component_A1_SymbolInstance_29">
+			<div id="Linkedin">
+				<span>Linkedin</span>
+			</div>
+		</div>
+		<div id="Component_A1_SymbolInstance_30">
+			<div id="Contact_A1_Text_40">
+				<span>Contact</span>
+			</div>
+		</div>
+		<div id="Component_A1_SymbolInstance_31">
+			<div id="Kaggle">
+				<span>Kaggle</span>
+			</div>
+		</div>
+	</div>
+	<svg class="cv_intro">
+		<pattern elementId="cv_intro_A1_Rectangle_8" id="cv_intro_A1_Rectangle_8_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="cv_intro_A1_Rectangle_8_pattern.png" xlink:href="cv_intro_A1_Rectangle_8_pattern.png"></image>
+		</pattern>
+		<rect id="cv_intro" rx="0" ry="0" x="0" y="0" width="482" height="268">
+		</rect>
+	</svg>
+	<svg class="Rectangle_199">
+		<rect id="Rectangle_199" rx="10.315096855163574" ry="10.315096855163574" x="0" y="0" width="759.019" height="315">
+		</rect>
+	</svg>
+	<svg class="Rectangle_200">
+		<rect id="Rectangle_200" rx="8.7163667678833" ry="8.7163667678833" x="0" y="0" width="707.015" height="274.572">
+		</rect>
+	</svg>
+	<div id="Component_65___1">
+		<div id="Resume_">
+			<span>Resume	</span>
+		</div>
+		<div id="Group_433">
+			<svg class="Path_514" viewBox="1980.779 787.396 0.487 27.29">
+				<path id="Path_514" d="M 1981.265747070312 787.39599609375 L 1981.022216796875 801.0409545898438 L 1980.778564453125 814.6859130859375">
+				</path>
+			</svg>
+			<svg class="Path_515" viewBox="1962 766 37 21">
+				<path id="Path_515" d="M 1999 787 L 1981 766 L 1981 766 L 1962 787 L 1980.5 787 L 1999 787">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<div id="After_finishing_my_first_Maste">
+		<span>After finishing my first Masters Degree in Applied Cognitive Neuroscience which entails machine learning techniques (IE. Computer Vision) and conducting UX Research (Human Computer Interaction). <br/>I continue to use my research expertise and share years of child behavior research in continually to  creating engaging tools teaching children various life skills.  Along the way I have mastered multiple types of experimental processes including but not limited to data collection, management, and analysis.  I have also built many experiments using cutting edge technology (MEG imaging FNIRS imaging as well as combing EEG data and behavior data like eye tracking) as well as sharing my knowledge through educational entertainment for children.  </span>
+	</div>
+	<svg class="Line_222">
+		<path id="Line_222" d="M 0 0 L 703 0">
+		</path>
+	</svg>
+</div>
+</body>
+</html>
